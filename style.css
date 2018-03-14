@@ -1,0 +1,119 @@
+.flex-main{
+  display: flex;
+  flex-direction: row;
+}
+
+.profile{
+  width: 70%;
+  background: #fff;
+  margin: 1%;
+  padding: 2%;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.content{
+  width: 70%;
+  background: #fff;
+  margin: 1%;
+  padding: 2%;
+  border: 1px solid #000;
+  border-radius: 20px;
+}
+
+body{
+  background: #ddd;
+}
+
+img{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@@media only screen and (min-width:320px) and (max-width:480px){
+  .flex-main{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .profile{
+    width: 30%;
+    background: #fff;
+    margin: 1%;
+    padding: 2%;
+    border: 1px solid #000;
+    border-radius: 20px;
+  }
+
+  .content{
+    width: 70%;
+    background: #fff;
+    margin: 1%;
+    padding: 2%;
+    border: 1px solid #000;
+    border-radius: 20px;
+  }
+
+}
+
+
+@@media only screen and (min-width:481px) and (max-width:768px){
+  *{
+    font-size: 30px;
+  }
+  .flex-main{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .profile{
+    width: 30%;
+    background: #fff;
+    margin: 1%;
+    padding: 2%;
+    border: 1px solid #000;
+    border-radius: 20px;
+  }
+
+  .content{
+    width: 70%;
+    background: #fff;
+    margin: 1%;
+    padding: 2%;
+    border: 1px solid #000;
+    border-radius: 20px;
+  }
+
+}
+
+
+@@media only screen and (min-width:769px) and (max-width:1024px){
+
+  *{
+    font-size: 50px;
+  }
+  .flex-main{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .profile{
+    width: 30%;
+    background: #fff;
+    margin: 1%;
+    padding: 2%;
+    border: 1px solid #000;
+    border-radius: 20px;
+  }
+
+  .content{
+    width: 70%;
+    background: #fff;
+    margin: 1%;
+    padding: 2%;
+    border: 1px solid #000;
+    border-radius: 20px;
+  }
+}

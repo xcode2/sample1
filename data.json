@@ -1,0 +1,29 @@
+{
+  "basics":{
+    "name":"Yishak"
+  },
+
+   "career":{
+
+     "data":"career objective"
+   },
+
+  "education":[
+    {
+      "degree":"B.Tech(C.S.E)",
+      "college":"SVCET",
+      "data":["2015-19","70%"]
+    },
+     {
+      "degree":"Intermediate(M.P.C)",
+      "college":"Nobel Academy",
+      "data":["2013-15","81%"]
+    },
+
+    {
+      "degree":"S.C.C",
+      "college":"Sitams college",
+      "data":["2010-12", "91%"]
+    }
+  ]
+}
